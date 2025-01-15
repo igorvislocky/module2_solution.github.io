@@ -1,50 +1,36 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles/style.css">
         <title>Restaurant Menu</title>
-        <link rel="stylesheet" href="css/styles.css">
-        <!-- This is code for xyz -->
     </head>
     <body>
-        <div class="container">
-                <header>
-                    <h1>Our Menu</h1>
-                </header>
-                <div class ="row">
-                    <section class ="col-lg-4 col-md-6 container-box">
-                        <p class="header" id="p1"> 
-                            <strong> 
-                                Chicken 
-                            </strong> 
-                        </p>
-                        <p class="content">Lorem ipsum lorem Lorem ipsum lorem Lorem ipsum lorem Lorem 
-                            ipsum lorem Lorem ipsum lorem Lorem ipsum lorem Lorem ipsum 
-                            lorem lorem Lorem ipsum lorem
-                        </p>
-                    </section>
-                    <section class ="col-lg-4 col-md-6 container-box">
-                        <p class="header" id="p2">
-                            <strong>Beef</strong>
-                        </p>
-                        <p class="content">Lorem ipsum lorem Lorem ipsum lorem Lorem ipsum lorem Lorem 
-                            ipsum lorem Lorem ipsum lorem Lorem ipsum lorem Lorem ipsum 
-                            lorem lorem Lorem ipsum lorem
-                        </p>
-                    </section>
-                    <section class="col-lg-4 col-md-12 container-box">
-                        <p class="header" id="p3">
-                            <strong>Sushi</strong>
-                        </p>
-                        <p class="content">Lorem ipsum lorem Lorem ipsum lorem Lorem ipsum lorem Lorem 
-                            ipsum lorem Lorem ipsum lorem Lorem ipsum lorem Lorem ipsum 
-                            orem lorem Lorem ipsum lorem
-                        </p>
-                    </section>
+        <h1>Our Menu</h1>
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <div id="menuitem">
+                    <h3 id="chicken">Chicken</h3>
+                    <p>Tender, juicy chicken prepared to perfection. From classic grilled chicken to spiced and crispy fried favorites, there's something for every palate.
+                    </p>
                 </div>
             </div>
-    
-        </body>
+            <div class="col-lg-4 col-md-6">
+                <div  id="menuitem">
+                    <h3 id="beef">Beef</h3>
+                    <p>Savor premium beef cuts cooked to your preference. Whether you're craving a hearty steak, slow-cooked roast, or a flavorful burger, our beef dishes are sure to satisfy.
+                    </p>
+                </div>
+            </div>
+                <div class="col-lg-4 col-md-12">
+                    <div id="menuitem">
+                        <h3 id="sushi">Sushi</h3>
+                        <p>Experience the art of sushi with our fresh, handcrafted rolls and nigiri. From classic California rolls to chef's specials, each bite is a taste of Japan.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
 </html>
-
